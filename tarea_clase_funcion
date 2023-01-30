@@ -1,0 +1,14 @@
+class Alumno():
+
+     def __init__(self, Nombre, Nota):
+      self.Nombre = "edgar"
+      self.Nota = 8
+
+      if Nota >= 8:
+             print(Nombre,"Aprueba con:", self.Nota)
+      elif Nota <= 7:
+             print(Nombre, "Reprueba con:", self.Nota)
+
+
+e = Alumno("edgar", 8)
+
